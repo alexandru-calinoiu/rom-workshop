@@ -19,6 +19,7 @@ module Persistence
   def self.finalize
     @rom ||= begin
       config.auto_registration File.join(__dir__, "lib/persistence")
+      config.register_relation Articles
       ROM.container(config)
     end
   end

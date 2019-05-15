@@ -10,11 +10,11 @@
 
 - [ ] Write a migration for an "articles" table
   - `id` primary key, `title` text, and `published` boolean columns
-- [ ] Create a relation (with inferred schema)
-- [ ] Create a repo for the relation
-- [ ] Create some records
+- [x] Create a relation (with inferred schema)
+- [x] Create a repo for the relation
+- [x] Create some records
   - enable `create` command on repo
-- [ ] Use `#by_pk` to read records back
+- [x] Use `#by_pk` to read records back
 - [ ] Update some records
   - enable `update` comand on repo using `by_pk` restriction
 
